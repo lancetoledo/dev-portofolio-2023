@@ -74,14 +74,14 @@ export default function Header() {
                         </a>
                       </li>
                       <li className='list-inline-item'>
-                        <a href='#'>
+                        <a href='https://www.linkedin.com/in/lancetoledo/'>
                           <i>
                             <FaLinkedin />
                           </i>
                         </a>
                       </li>
                       <li className='list-inline-item'>
-                        <a href='#'>
+                        <a href='https://twitter.com/ohitsjustlawnce'>
                           <i>
                             <FaTwitter />
                           </i>
