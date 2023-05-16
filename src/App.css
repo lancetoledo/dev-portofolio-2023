@@ -1,17 +1,19 @@
 /* Deafult Margin & Padding */
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    max-width: 1920px;
-    background-color: #2e2e35;
-    color: #dadada;
-    margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	max-width: 100%;
+	background-color: #2e2e35;
+	color: #dadada;
+	margin: 0 auto;
 }
+
 /*======================= Margin Top =======================*/
 .mt-5 {
 	margin-top: 5px !important;
 }
+
 .mt-10 {
 	margin-top: 10px;
 }
@@ -172,6 +174,7 @@ body {
 .ml-5 {
 	margin-left: 5px !important;
 }
+
 .ml-10 {
 	margin-left: 10px;
 }
@@ -332,6 +335,7 @@ body {
 .mr-5 {
 	margin-right: 5px !important;
 }
+
 .mr-10 {
 	margin-right: 10px;
 }
@@ -492,6 +496,7 @@ body {
 .mb-5 {
 	margin-bottom: 5px !important;
 }
+
 .mb-10 {
 	margin-bottom: 10px;
 }
@@ -652,6 +657,7 @@ body {
 .pt-5 {
 	padding-top: 5px !important;
 }
+
 .pt-10 {
 	padding-top: 10px;
 }
@@ -969,6 +975,7 @@ body {
 .pl-5 {
 	padding-left: 5px !important;
 }
+
 .pl-10 {
 	padding-left: 10px;
 }
@@ -1129,6 +1136,7 @@ body {
 .pr-5 {
 	padding-right: 5px !important;
 }
+
 .pr-10 {
 	padding-right: 10px;
 }
@@ -1296,7 +1304,7 @@ body {
 }
 
 .white-bg {
-	background-color: #fff ;
+	background-color: #fff;
 }
 
 .black-bg {

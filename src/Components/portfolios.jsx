@@ -74,22 +74,27 @@ export default function Portfolios() {
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
                           portfolioImg={portfolioImg_01}
+                          portfolioLink={"https://autholicssj.netlify.app/"}
                           title='Portfolio Title One'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_03}
+                          portfolioLink={portfolioImg_03}
                           title='Portfolio Title Two'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
+                          portfolioLink={portfolioImg_04}
                           title='Portfolio Title Three'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
+                          portfolioLink={portfolioImg_02}
                           title='Portfolio Title Four'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_06}
+                          portfolioLink={portfolioImg_06}
                           title='Portfolio Title Five'
                         />
                       </Masonry>
