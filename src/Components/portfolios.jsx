@@ -33,7 +33,7 @@ export default function Portfolios() {
   useEffect(() => {
     controlColumns()
   }, [windowWidth])
-
+  //cool
   return (
     <>
       <div className='portfolio-area section-ptb-2' id='portfolio'>
