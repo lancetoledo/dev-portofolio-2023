@@ -8,6 +8,8 @@ import portfolioImg_03 from '../assets/images/portfolio/3.png'
 import portfolioImg_04 from '../assets/images/portfolio/4.png'
 import portfolioImg_05 from '../assets/images/portfolio/5.png'
 import portfolioImg_06 from '../assets/images/portfolio/6.png'
+import portfolioImg_07 from '../assets/images/portfolio/7.png'
+import portfolioImg_08 from '../assets/images/portfolio/8.png'
 import { SRLWrapper } from 'simple-react-lightbox'
 import SectionTitle from './section_title'
 
@@ -74,28 +76,38 @@ export default function Portfolios() {
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
                           portfolioImg={portfolioImg_01}
-                          portfolioLink={"https://autholicssj.netlify.app/"}
-                          title='Portfolio Title One'
+                          portfolioLink={"https://autholics.netlify.app/"}
+                          title='Autoholics'
                         />
                         <SinglePortfolio
+                          portfolioImg={portfolioImg_07}
+                          portfolioLink={"https://aiartgenetor.netlify.app/"}
+                          title='AI Art Generator'
+                        />
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_08}
+                          portfolioLink={"https://discordchatbot.netlify.app/"}
+                          title='Discord Chatbot'
+                        />   
+                        <SinglePortfolio
                           portfolioImg={portfolioImg_03}
-                          portfolioLink={portfolioImg_03}
+                          portfolioLink={"https://www.youtube.com/watch?v=HIWuUdo9utw"}
                           title='Portfolio Title Two'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
-                          portfolioLink={portfolioImg_04}
+                          portfolioLink={"https://youtu.be/qIGs3XWybgU?si=SPVz3RZpI6_vtee_&t=106"}
                           title='Portfolio Title Three'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
-                          portfolioLink={portfolioImg_02}
+                          portfolioLink={"https://www.youtube.com/watch?v=XQCmAzVINRA"}
                           title='Portfolio Title Four'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_06}
-                          portfolioLink={portfolioImg_06}
-                          title='Portfolio Title Five'
+                          portfolioLink={"https://nba-compare-stats.netlify.app/"}
+                          title='NBA Player Stats Comparison'
                         />
                       </Masonry>
                     </SRLWrapper>

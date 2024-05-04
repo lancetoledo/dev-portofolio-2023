@@ -27,7 +27,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>UI/UX Design</h4>
-                <p>129 projects</p>
+                <p>2 projects</p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>Web Development</h4>
-                <p>221 projects</p>
+                <p>22 projects</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>Web Research</h4>
-                <p>450 projects</p>
+                <p>46 projects</p>
               </div>
             </div>
           </div>
@@ -62,8 +62,8 @@ export default function Services() {
                 <img className='d-none' src={servicIcon_04} alt='design' />
               </div>
               <div className='skill-project'>
-                <h4 className='mb-3'>Marketing</h4>
-                <p>331 projects</p>
+                <h4 className='mb-3'>YT Videos Made</h4>
+                <p>64 projects</p>
               </div>
             </div>
           </div>
@@ -76,19 +76,19 @@ export default function Services() {
               extraClass='mb-4 mb-md-0'
               title='Years of Experience'
               start={0}
-              end={9}
-              duration={5}
-            />
-            <SingleCountdown
-              extraClass='mb-4 mb-md-0'
-              title='Satisfied Customers'
-              start={0}
-              end={200}
+              end={2}
               duration={7}
             />
             <SingleCountdown
               extraClass='mb-4 mb-md-0'
-              title='Design Items'
+              title='Students Taught'
+              start={0}
+              end={76}
+              duration={7}
+            />
+            <SingleCountdown
+              extraClass='mb-4 mb-md-0'
+              title='Days Coding'
               start={0}
               end={769}
               duration={9}
@@ -96,7 +96,7 @@ export default function Services() {
             <SingleCountdown
               title='Clients Served'
               start={0}
-              end={124}
+              end={11}
               duration={10}
             />
           </div>
