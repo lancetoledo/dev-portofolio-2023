@@ -81,6 +81,11 @@ export default function Portfolios() {
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_07}
+                          portfolioLink={"https://nbagoatcalculator.netlify.app/"}
+                          title='AI Art Generator'
+                        />
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_07}
                           portfolioLink={"https://aiartgenetor.netlify.app/"}
                           title='AI Art Generator'
                         />
