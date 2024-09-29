@@ -85,7 +85,7 @@ export default function Portfolios() { // Define the Portfolios functional compo
                         <SinglePortfolio
                           portfolioImg={portfolioImg_09}
                           portfolioLink={"https://nbagoatcalculator.netlify.app/"}
-                          title='AI Art Generator'
+                          title='NBA G.O.A.T Calculator'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_07}
@@ -100,17 +100,17 @@ export default function Portfolios() { // Define the Portfolios functional compo
                         <SinglePortfolio
                           portfolioImg={portfolioImg_03}
                           portfolioLink={"https://www.youtube.com/watch?v=HIWuUdo9utw"}
-                          title='Portfolio Title Two'
+                          title='Airbnb Blockchain Tutorial'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
                           portfolioLink={"https://youtu.be/qIGs3XWybgU?si=SPVz3RZpI6_vtee_&t=106"}
-                          title='Portfolio Title Three'
+                          title='Tiktok Blockchain Tutorial'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
                           portfolioLink={"https://www.youtube.com/watch?v=XQCmAzVINRA"}
-                          title='Portfolio Title Four'
+                          title='Instagram Blockchain Tutorial'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_06}
@@ -150,25 +150,30 @@ export default function Portfolios() { // Define the Portfolios functional compo
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
+                          portfolioImg={portfolioImg_09}
+                          portfolioLink={"https://nbagoatcalculator.netlify.app/"}
+                          title='NBA G.O.A.T Calculator'
+                        />
+                        <SinglePortfolio
                           portfolioImg={portfolioImg_01}
-                          title='Portfolio Title One'
+                          portfolioLink={"https://autholics.netlify.app/"}
+                          title='Autoholics'
                         />
                         <SinglePortfolio
-                          portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Three'
+                          portfolioImg={portfolioImg_07}
+                          portfolioLink={"https://aiartgenetor.netlify.app/"}
+                          title='AI Art Generator'
                         />
                         <SinglePortfolio
-                          portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Four'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Five'
-                        />
+                          portfolioImg={portfolioImg_08}
+                          portfolioLink={"https://discordchatbot.netlify.app/"}
+                          title='Discord Chatbot'
+                        />                          
                         <SinglePortfolio
                           portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Six'
-                        />
+                          portfolioLink={"https://nba-compare-stats.netlify.app/"}
+                          title='NBA Player Stats Comparison'
+                        />                        
                       </Masonry>
                     </SRLWrapper>
                   </Tab.Pane>
@@ -179,48 +184,33 @@ export default function Portfolios() { // Define the Portfolios functional compo
                           portfolioImg={portfolioImg_01}
                           title='Portfolio Title One'
                         />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Three'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Four'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Five'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Six'
-                        />
                       </Masonry>
                     </SRLWrapper>
                   </Tab.Pane>
-                  <Tab.Pane eventKey='marketing'> {/* Tab pane for 'Marketing' category */}
+                  <Tab.Pane eventKey='marketing'> {/* Tab pane for 'YouTube' category */}
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Portfolio Title One'
-                        />
-                        <SinglePortfolio
+                      <SinglePortfolio
                           portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Three'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Four'
+                          portfolioLink={"https://www.youtube.com/watch?v=HIWuUdo9utw"}
+                          title='Airbnb Blockchain Tutorial'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Five'
+                          portfolioLink={"https://www.youtube.com/watch?v=XQCmAzVINRA"}
+                          title='Instagram Blockchain Tutorial'
                         />
                         <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Six'
+                          portfolioImg={portfolioImg_04}
+                          portfolioLink={"https://youtu.be/qIGs3XWybgU?si=SPVz3RZpI6_vtee_&t=106"}
+                          title='Tiktok Blockchain Tutorial'
                         />
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_04}
+                          portfolioLink={"https://youtu.be/qIGs3XWybgU?si=SPVz3RZpI6_vtee_&t=106"}
+                          title='Tiktok Blockchain Tutorial'
+                        />
+                        
                       </Masonry>
                     </SRLWrapper>
                   </Tab.Pane>
