@@ -1,3 +1,5 @@
+//src/Pages/Home.jsx
+
 import React from 'react'
 import Slider from '../Components/slider'
 import SimpleReactLightbox from 'simple-react-lightbox'
