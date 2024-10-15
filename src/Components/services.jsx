@@ -7,7 +7,7 @@ import servicIcon_03 from '../assets/images/icons/search-yellow.png'
 import servicIcon_04 from '../assets/images/icons/marketing.png'
 import servicIcon_05 from '../assets/images/icons/code-white.png'
 import servicIcon_06 from '../assets/images/icons/marketing-white.png'
-import SingleCountdown from '../SingleFeatures/SingleCountdown'
+import SingleCountdown from '../SingleFeatures/SIngleCountdown'
 import SectionTitle from './section_title'
 
 // New formatting function
