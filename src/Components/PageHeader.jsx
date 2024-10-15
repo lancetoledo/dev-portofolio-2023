@@ -1,3 +1,5 @@
+//src/Components/PageHeader.jsx
+
 import React from 'react';
 export default function PageHeader(props) {
     const { title, smallDesc } = props.post;

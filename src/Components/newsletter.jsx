@@ -1,3 +1,5 @@
+//src/Components/newsletter.jsx
+
 import React from 'react'
 export default function Newsletter() {
   return (

@@ -1,3 +1,5 @@
+//src/Components/header.jsx
+
 import React from 'react'
 import logoImg from '../assets/images/logo/logo.png'
 import '../assets/css/slick.min.css'

@@ -1,3 +1,5 @@
+//src/Components/footer.jsx
+
 import React from 'react'
 import { FaAngleUp } from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll'

@@ -1,3 +1,5 @@
+//src/Components/portfolios.jsx
+
 import React, { useState, useEffect } from 'react' // Import React and hooks for state and lifecycle management
 import { Col, Row, Nav, Tab } from 'react-bootstrap' // Import Bootstrap components for layout and navigation
 import Masonry from 'react-responsive-masonry' // Import Masonry for responsive grid layout
@@ -13,6 +15,73 @@ import portfolioImg_08 from '../assets/images/portfolio/8.png'
 import portfolioImg_09 from '../assets/images/portfolio/9.png'
 import { SRLWrapper } from 'simple-react-lightbox' // Import SRLWrapper for lightbox functionality
 import SectionTitle from './section_title' // Import custom SectionTitle component
+
+// Extract YouTube video data
+export const youtubeVideos = [
+    {
+      id: 'JbZPQJpfahI',
+      url: 'https://youtu.be/JbZPQJpfahI?si=Yc19F-TWO3vmWB5J&t=75',
+      title: 'Spotify Blockchain Tutorial',
+      views: 155400,
+      likes: 1900,
+      comments: 87,
+      thumbnailImg: portfolioImg_04,
+    },
+    {
+      id: 'lI1ae4REbFM',
+      url: 'https://youtu.be/lI1ae4REbFM?si=P7hdW2A_yfa5p1Ok&t=36936',
+      title: 'JavaScript Beginners Tutorial 12 Hours',
+      views: 1212000,
+      likes: 42917,
+      comments: 1689,
+      thumbnailImg: portfolioImg_03,
+    },
+    {
+      id: 'lI1ae4REbFM',
+      url: 'https://youtu.be/8jRB-2AQ-mI?si=aK8Q2S2EBEFhxrug&t=49',
+      title: 'I asked developers how much MONEY they make',
+      views: 1373398,
+      likes: 23917,
+      comments: 1264,
+      thumbnailImg: portfolioImg_02,
+    },
+    {
+      id: 'JbZPQJpfahI',
+      url: 'https://youtu.be/HMdwbq1JJT0?si=IR1t773t6LcELmKA&t=131',
+      title: 'Amazon Web 3.0 with Solidity',
+      views: 109000,
+      likes: 2900,
+      comments: 163,
+      thumbnailImg: portfolioImg_03,
+    },
+    {
+    id: 'qIGs3XWybgU',
+    url: 'https://youtu.be/qIGs3XWybgU?si=SPVz3RZpI6_vtee_&t=106',
+    title: 'Tiktok Blockchain Tutorial',
+    views: 106000,
+    likes: 1800,
+    comments: 81,
+    thumbnailImg: portfolioImg_04,
+  },
+  {
+    id: 'HIWuUdo9utw',
+    url: 'https://www.youtube.com/watch?v=HIWuUdo9utw',
+    title: 'Airbnb Blockchain Tutorial',
+    views: 17000,
+    likes: 419,
+    comments: 22,
+    thumbnailImg: portfolioImg_03,
+  },
+  {
+    id: 'XQCmAzVINRA',
+    url: 'https://www.youtube.com/watch?v=XQCmAzVINRA',
+    title: 'Instagram Blockchain Tutorial',
+    views: 12000,
+    likes: 317,
+    comments: 24,
+    thumbnailImg: portfolioImg_02,
+  },
+];
 
 export default function Portfolios() { // Define the Portfolios functional component
   const [windowWidth, setWindowWidth] = useState(window.innerWidth) // State to track window width

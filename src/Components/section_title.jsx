@@ -1,3 +1,5 @@
+//src/Components/section_title.jsx
+
 import React from 'react';
 export default function SectionTitle(props) {
     const { title, subTitle, desc } = props;

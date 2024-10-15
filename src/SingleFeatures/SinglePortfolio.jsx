@@ -1,9 +1,10 @@
+//src/SingleFeatures/SinglePortfolio.jsx
+
 import React from 'react';
 import { FiPlus } from "react-icons/fi";
 export default function SinglePortfolio(props) {
     const { portfolioImg, portfolioLink, title } = props;
 
-    console.log(portfolioLink, "YOO", portfolioImg)
     return (
         <div className="grid">
             <div className="col px-sm-2 mb-3">

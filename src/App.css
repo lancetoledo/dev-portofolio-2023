@@ -1,3 +1,5 @@
+/* src/App.css */
+
 /* Deafult Margin & Padding */
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -1365,3 +1367,190 @@ body {
 [data-overlay="9"]::before {
 	opacity: 0.9;
 }
+
+/* src/Components/YouTubeCarousel.css */
+
+.youtube-carousel-section * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .youtube-carousel-section {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 80px 0;
+	background-color: #2e2e35;
+	color: #dadada;
+  }
+  
+  .youtube-carousel-section .container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+  }
+  
+  .youtube-carousel {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  .carousel-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 0 40px;
+  }
+  
+  .video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+  }
+  
+  .youtube-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	border: none;
+	border-radius: 8px;
+  }
+  
+  .youtube-player iframe {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+  }
+  
+  .carousel-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 215, 0, 0.2);
+	color: #ffd700;
+	border: none;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 50%;
+	z-index: 2;
+	transition: all 0.3s ease;
+  }
+  
+  .carousel-button:hover {
+	background-color: rgba(255, 215, 0, 0.4);
+  }
+  
+  .carousel-button.prev {
+	left: 0;
+  }
+  
+  .carousel-button.next {
+	right: 0;
+  }
+  
+  .video-stats {
+	background-color: #3a3a42;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+  }
+  
+  .stat-item {
+	padding: 15px;
+	transition: all 0.3s ease;
+	text-align: center;
+  }
+  
+  .stat-item:hover {
+	transform: translateY(-5px);
+  }
+  
+  .stat-icon {
+	font-size: 24px;
+	color: #ffd700;
+	margin-bottom: 10px;
+  }
+  
+  .stat-value {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #ffffff;
+  }
+  
+  .stat-label {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+  }
+  
+  /* Ensure icons are visible */
+  .fa-eye, .fa-thumbs-up, .fa-comment {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.125em;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+	.youtube-carousel-section,
+	.youtube-carousel {
+	  max-width: 100%;
+	  padding: 40px 0;
+	}
+  
+	.carousel-wrapper {
+	  padding: 0 30px;
+	}
+  
+	.video-container {
+	  max-width: 100%;
+	}
+  
+	.carousel-button {
+	  width: 30px;
+	  height: 30px;
+	  font-size: 18px;
+	}
+  
+	.stat-item {
+	  margin-bottom: 20px;
+	}
+  
+	.stat-value {
+	  font-size: 24px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.carousel-wrapper {
+	  padding: 0 20px;
+	}
+  
+	.carousel-button {
+	  width: 24px;
+	  height: 24px;
+	  font-size: 16px;
+	}
+  
+	.stat-value {
+	  font-size: 20px;
+	}
+  }
