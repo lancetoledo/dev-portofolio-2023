@@ -19,7 +19,7 @@ export default function Home() {
       <SimpleReactLightbox>
         <Portfolios />
       </SimpleReactLightbox>
-      {/* <YouTubeCarousel /> */}
+      <YouTubeCarousel />
       <Contact />
       <Footer />
     </div>
