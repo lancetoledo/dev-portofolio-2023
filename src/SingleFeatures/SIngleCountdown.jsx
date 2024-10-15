@@ -4,7 +4,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from "react-visibility-sensor";
 
-export default function SingleCountdown(props) {
+export default function SIngleCountdown(props) {
     const { title, start, end, duration, extraClass, formattedValue, children } = props;
     
     return (
